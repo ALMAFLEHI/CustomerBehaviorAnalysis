@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ArrayImplementation">
+      <UniqueIdentifier>{fb50081f-6e82-46d1-b208-47bef4df37da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinkedListImplementation">
+      <UniqueIdentifier>{03dfe97f-cb6f-4c64-b464-9405d49410cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ReviewAnalysis">
+      <UniqueIdentifier>{00770ca0-8c06-4c89-bbfe-376eb22ec6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PerformanceTests">
+      <UniqueIdentifier>{efc11f74-6d35-4568-b6da-99438e2a5ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HelperScripts">
+      <UniqueIdentifier>{64295b93-5de7-4618-a42f-a79c5ad19d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dataset">
+      <UniqueIdentifier>{07cfd309-b50c-445a-9a30-3aa2cc29dba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{5e5f8ccf-05e9-474f-8501-0dd658398788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Array.cpp">
+      <Filter>Source Files\ArrayImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayMain.cpp">
+      <Filter>Source Files\ArrayImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files\LinkedListImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListMain.cpp">
+      <Filter>Source Files\LinkedListImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviewAnalyzer.cpp">
+      <Filter>Source Files\ReviewAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\PerformanceTests</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVLoader.cpp">
+      <Filter>Source Files\HelperScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\HelperScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviewMain.cpp">
+      <Filter>Source Files\ReviewAnalysis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h">
+      <Filter>Source Files\ArrayImplementation</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Source Files\LinkedListImplementation</Filter>
+    </ClInclude>
+    <ClInclude Include="ReviewAnalyzer.h">
+      <Filter>Source Files\ReviewAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files\PerformanceTests</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVLoader.h">
+      <Filter>Source Files\HelperScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Source Files\HelperScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Transaction.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PerformanceReport.txt">
+      <Filter>Source Files\PerformanceTests</Filter>
+    </Text>
+    <Text Include="ReviewFrequencyReport.txt">
+      <Filter>Source Files\ReviewAnalysis</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x64\Debug\Dataset\transactions.csv">
+      <Filter>Source Files\Dataset</Filter>
+    </None>
+    <None Include="x64\Debug\Dataset\transactions_cleaned.csv">
+      <Filter>Source Files\Dataset</Filter>
+    </None>
+    <None Include="x64\Debug\Dataset\reviews.csv">
+      <Filter>Source Files\Dataset</Filter>
+    </None>
+    <None Include="x64\Debug\Dataset\reviews_cleaned.csv">
+      <Filter>Source Files\Dataset</Filter>
+    </None>
+  </ItemGroup>
+</Project>

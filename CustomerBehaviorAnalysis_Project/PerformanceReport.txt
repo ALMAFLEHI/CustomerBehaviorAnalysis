@@ -1,0 +1,22 @@
+Performance Comparison Report
+===============================
+Structure: ARRAY
+------------------
+Sorting Algorithm   : Bubble Sort
+Time Taken (ms)     : 91197.2
+Time Complexity     : O(n²)
+Memory Usage        : Contiguous block (array of objects)
+Number of Records   : 4128
+Stability           : Stable sort
+Suitability         : Fast for small datasets, slow for large ones.
+
+Structure: LINKED LIST
+------------------------
+Sorting Algorithm   : Bubble Sort
+Time Taken (ms)     : 189230
+Time Complexity     : O(n²)
+Memory Usage        : Dynamically allocated nodes
+Number of Records   : 4128
+Stability           : Stable sort
+Suitability         : Simple to implement, but slower due to pointer overhead
+
