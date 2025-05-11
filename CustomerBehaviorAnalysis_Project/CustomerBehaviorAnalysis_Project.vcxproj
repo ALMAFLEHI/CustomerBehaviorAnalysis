@@ -55,6 +55,14 @@
     <None Include="x64\Debug\Dataset\transactions.csv" />
     <None Include="x64\Debug\Dataset\transactions_cleaned.csv" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Bubble Sort.png" />
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\carbon.png" />
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Element Shifting-Pointer Rewiring.png" />
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Hash Map.png" />
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Linear Search.png" />
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\_ReviewAnalyzer Output.png" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Models">
       <UniqueIdentifier>{5e5f8ccf-05e9-474f-8501-0dd658398788}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\images">
+      <UniqueIdentifier>{3c59ba4d-774f-442b-8521-aa92a65ea03e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Array.cpp">
@@ -111,5 +114,25 @@
     <None Include="x64\Debug\Dataset\reviews_cleaned.csv">
       <Filter>Source Files\Dataset</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\carbon.png">
+      <Filter>Source Files\images</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\_ReviewAnalyzer Output.png">
+      <Filter>Source Files\images</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Bubble Sort.png">
+      <Filter>Source Files\images</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Linear Search.png">
+      <Filter>Source Files\images</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Element Shifting-Pointer Rewiring.png">
+      <Filter>Source Files\images</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Profile\Projects Imgs\C++\Hash Map.png">
+      <Filter>Source Files\images</Filter>
+    </Image>
   </ItemGroup>
 </Project>
