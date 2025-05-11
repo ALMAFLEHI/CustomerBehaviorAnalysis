@@ -16,7 +16,7 @@ This C++ project is a **menu-driven transaction management system** that helps a
 - Loads cleaned transactional dataset (4128 records)
 - Reads and groups reviews by star rating
 
-### 🧠 ReviewAnalyzer (Bonus Feature)
+### 🧠 ReviewAnalyzer
 - Displays top frequent words in 1-star reviews
 - Hash Map used for word frequency counting
 - Optionally exports to `ReviewFrequencyReport.txt` with simple bar chart
@@ -118,5 +118,11 @@ MIT License
 
 ---
 
-## 🙋‍♂️ Authors & Contributors
-Developed as part of a data structure assignment. Contributions welcomed in forks or academic reviews.
+<hr>
+
+<h3 align="center">📬 Let's Connect</h3>
+<p align="center">
+  <a href="https://almaflehidev.com">🌐 almaflehidev.com</a> •
+  <a href="https://tinyurl.com/yx3ks56u">💼 LinkedIn</a>
+</p>
+
