@@ -21,39 +21,50 @@ This C++ project is a **menu-driven transaction management system** that helps a
 - Hash Map used for word frequency counting
 - Optionally exports to `ReviewFrequencyReport.txt` with simple bar chart
 
----
+
 
 ## 💡 Algorithms Used
-
 - **Bubble Sort** (O(n²)): for sorting by date
 - **Linear Search** (O(n)): for filtering transactions
 - **Element Shifting** (Array): for insert/delete
 - **Pointer Rewiring** (Linked List): for insert/delete
 - **Hash Map (unordered_map)**: for 1-star review word analysis
 
----
+## 📸 Algorithms Code Snippet
+- **Bubble Sort** (O(n²)): for sorting by date
+![Linked-List/Array Sorting](imges/Bubble_Sort.png)
+  
+- **Linear Search** (O(n)): for filtering transactions
+![Linear Search](imges/Linear_Search.png)
+
+- **Element Shifting & Pointer Rewiring** (Array/LinkedList): for insert/delete
+![Element Shifting & Pointer Rewiring](imges/Element_Shifting_Pointer_Rewiring.png)
+
+- **Hash Map (unordered_map)**: for 1-star review word analysis
+![Hash Map](imges/Hash_Map.png)
+
 
 ## 📈 Performance Snapshot
 
 ### Sorting Time (from `PerformanceReport.txt`)
 
-![Performance Snapshot](images/array_sorting_time.png)
+![Performance Snapshot](imges/PerformanceReport.png)
 
 
 ### 🔍 1-Star Review Word Frequency Report Example
 
 
-![1-Star Review Report Example](images/array_sorting_time.png)
+![1-Star Review Report Example](imges/ReviewAnalyzer_Output.png)
 
 
 
 ## 📸 Screenshots
 
 ### 📌 Linked-List/Array-Based Sorting Performance
-![Array Sorting](images/array_sorting_time.png)
+![Linked-List/Array Sorting](imges/Bubble_Sort.png)
 
 ### ⭐ ReviewAnalyzer Output
-![Review Word Frequency](images/review_report_output.png)
+![Review Word Frequency](imges/ReviewAnalyzer_Output.png)
 
 ---
 
