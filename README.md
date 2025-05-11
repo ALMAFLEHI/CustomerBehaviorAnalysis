@@ -2,6 +2,10 @@
 
 This C++ project is a **menu-driven transaction management system** that helps analyze customer purchase behaviors using two fundamental data structures: **Array** and **Singly Linked List**. It enables users to display, sort, insert, delete, and search transaction data, along with measuring performance and analyzing 1-star customer reviews.
 
+
+![CustomerBehaviorAnalysis - Demo](demo.gif)
+![Algorithms](imges/Algorithms.gif)
+
 ## 🔧 Key Features
 
 ### ✅ Array & Linked List Implementations
