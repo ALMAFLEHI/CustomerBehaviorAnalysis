@@ -51,13 +51,6 @@ This C++ project is a **menu-driven transaction management system** that helps a
 ![Performance Snapshot](imges/PerformanceReport.png)
 
 
-### 🔍 1-Star Review Word Frequency Report Example
-
-
-![1-Star Review Report Example](imges/ReviewAnalyzer_Output.png)
-
-
-
 ## 📸 Screenshots
 
 ### 📌 Linked-List/Array-Based Sorting Performance
